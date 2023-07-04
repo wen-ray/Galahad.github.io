@@ -1,0 +1,64 @@
+theme = "PaperMod"
+baseurl = "https://Galahad.github.io" 
+#設定主頁 url
+languageCode = "zh-tw" 
+#設定 Blog 語言
+title = "First Page" 
+#設定網站標題
+buildDrafts = false 
+#是否產生草稿(建議選否)
+
+[params] 
+ShowBreadCrumbs = true    
+#展示文章所在目錄
+ShowReadingTime = true    
+#展示閱讀時間
+ShowShareButtons = true    
+#展示分享按鈕
+ShowPostNavLinks = true    
+#本地其他文章連結
+
+[params.cover]
+linkFullImages = true    
+#點擊圖片後以全螢幕檢視
+
+[params.profileMode]
+enabled = true
+title = "My Blog"
+subtitle = "Ray Chao"
+imageUrl = "img/IMG_4517.jpeg"
+imageWidth = 120
+imageHeight = 120
+imageTitle = "Enter the content"
+
+[[params.profileMode.buttons]]
+name = "Blog"
+url = "/posts/"
+
+[[params.profileMode.buttons]]
+name = "Categories"
+url = "/categories/"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/wen-ray"
+#...more
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 10
+
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories/"
+weight = 20
+
+[[menu.main]]
+identifier = "archives"
+name = "Archives"
+url = "/archives/"
+weight = 30
+
